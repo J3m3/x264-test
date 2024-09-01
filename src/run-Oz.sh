@@ -6,5 +6,5 @@
 ./asm_gen-ldecod-Oz.sh
 ./asm_gen-x264-Oz.sh
 
-./compare_s-ldecod.sh > temp-ldecod
-./compare_s-x264.sh > temp-x264
+./compare_s-ldecod.sh > result-ldecod-Oz
+./compare_s-x264.sh > result-x264-Oz
