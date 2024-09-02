@@ -1,0 +1,99 @@
+Comparing ldecod_src/memalloc.s and ldecod_src/memalloc.mod.s
+Comparing ldecod_src/loop_filter_mbaff.s and ldecod_src/loop_filter_mbaff.mod.s
+1143c1143
+< 	cmpl	%eax, %r10d
+---
+> 	cmpl	$51, %r10d
+1540c1540
+< 	cmpl	%esi, %ecx
+---
+> 	cmpl	$51, %ecx
+2058a2059
+> 	cmpl	$51, %edi
+2063d2063
+< 	cmpl	%eax, %edi
+2313c2313
+< 	cmpl	%esi, %ecx
+---
+> 	cmpl	$51, %ecx
+Comparing ldecod_src/intra_chroma_pred.s and ldecod_src/intra_chroma_pred.mod.s
+Comparing ldecod_src/annexb.s and ldecod_src/annexb.mod.s
+Comparing ldecod_src/ldecod.s and ldecod_src/ldecod.mod.s
+Comparing ldecod_src/mbuffer_mvc.s and ldecod_src/mbuffer_mvc.mod.s
+Comparing ldecod_src/biaridecod.s and ldecod_src/biaridecod.mod.s
+Comparing ldecod_src/fmo.s and ldecod_src/fmo.mod.s
+Comparing ldecod_src/intra8x8_pred_normal.s and ldecod_src/intra8x8_pred_normal.mod.s
+Comparing ldecod_src/intra8x8_pred.s and ldecod_src/intra8x8_pred.mod.s
+Comparing ldecod_src/configfile.s and ldecod_src/configfile.mod.s
+Comparing ldecod_src/header.s and ldecod_src/header.mod.s
+Comparing ldecod_src/io_raw.s and ldecod_src/io_raw.mod.s
+Comparing ldecod_src/erc_api.s and ldecod_src/erc_api.mod.s
+Comparing ldecod_src/mc_prediction.s and ldecod_src/mc_prediction.mod.s
+Comparing ldecod_src/output.s and ldecod_src/output.mod.s
+Comparing ldecod_src/config_common.s and ldecod_src/config_common.mod.s
+Comparing ldecod_src/nal.s and ldecod_src/nal.mod.s
+Comparing ldecod_src/image.s and ldecod_src/image.mod.s
+Comparing ldecod_src/intra8x8_pred_mbaff.s and ldecod_src/intra8x8_pred_mbaff.mod.s
+Comparing ldecod_src/parsetcommon.s and ldecod_src/parsetcommon.mod.s
+Comparing ldecod_src/decoder_test.s and ldecod_src/decoder_test.mod.s
+Comparing ldecod_src/quant.s and ldecod_src/quant.mod.s
+Comparing ldecod_src/macroblock.s and ldecod_src/macroblock.mod.s
+Comparing ldecod_src/mc_direct.s and ldecod_src/mc_direct.mod.s
+Comparing ldecod_src/input.s and ldecod_src/input.mod.s
+Comparing ldecod_src/mv_prediction.s and ldecod_src/mv_prediction.mod.s
+Comparing ldecod_src/parset.s and ldecod_src/parset.mod.s
+Comparing ldecod_src/intra16x16_pred.s and ldecod_src/intra16x16_pred.mod.s
+Comparing ldecod_src/transform8x8.s and ldecod_src/transform8x8.mod.s
+Comparing ldecod_src/loopFilter.s and ldecod_src/loopFilter.mod.s
+Comparing ldecod_src/img_process.s and ldecod_src/img_process.mod.s
+Comparing ldecod_src/erc_do_p.s and ldecod_src/erc_do_p.mod.s
+Comparing ldecod_src/filehandle.s and ldecod_src/filehandle.mod.s
+Comparing ldecod_src/intra4x4_pred.s and ldecod_src/intra4x4_pred.mod.s
+Comparing ldecod_src/win32.s and ldecod_src/win32.mod.s
+Comparing ldecod_src/blk_prediction.s and ldecod_src/blk_prediction.mod.s
+Comparing ldecod_src/sei.s and ldecod_src/sei.mod.s
+Comparing ldecod_src/errorconcealment.s and ldecod_src/errorconcealment.mod.s
+Comparing ldecod_src/vlc.s and ldecod_src/vlc.mod.s
+Comparing ldecod_src/mbuffer.s and ldecod_src/mbuffer.mod.s
+8540c8540
+< 	cmpl	$127, %r11d
+---
+> 	cmpl	%ebx, %r11d
+8554c8554
+< 	cmpl	%ebx, %r10d
+---
+> 	cmpl	$127, %r10d
+Comparing ldecod_src/nalucommon.s and ldecod_src/nalucommon.mod.s
+Comparing ldecod_src/io_tiff.s and ldecod_src/io_tiff.mod.s
+Comparing ldecod_src/transform.s and ldecod_src/transform.mod.s
+Comparing ldecod_src/erc_do_i.s and ldecod_src/erc_do_i.mod.s
+Comparing ldecod_src/block.s and ldecod_src/block.mod.s
+Comparing ldecod_src/nalu.s and ldecod_src/nalu.mod.s
+Comparing ldecod_src/mb_prediction.s and ldecod_src/mb_prediction.mod.s
+Comparing ldecod_src/intra4x4_pred_mbaff.s and ldecod_src/intra4x4_pred_mbaff.mod.s
+Comparing ldecod_src/context_ini.s and ldecod_src/context_ini.mod.s
+Comparing ldecod_src/leaky_bucket.s and ldecod_src/leaky_bucket.mod.s
+Comparing ldecod_src/intra16x16_pred_normal.s and ldecod_src/intra16x16_pred_normal.mod.s
+Comparing ldecod_src/cabac.s and ldecod_src/cabac.mod.s
+Comparing ldecod_src/intra16x16_pred_mbaff.s and ldecod_src/intra16x16_pred_mbaff.mod.s
+Comparing ldecod_src/intra4x4_pred_normal.s and ldecod_src/intra4x4_pred_normal.mod.s
+Comparing ldecod_src/mb_access.s and ldecod_src/mb_access.mod.s
+Comparing ldecod_src/rtp.s and ldecod_src/rtp.mod.s
+Comparing ldecod_src/loop_filter_normal.s and ldecod_src/loop_filter_normal.mod.s
+698c698
+< 	cmpl	%r11d, %ebx
+---
+> 	cmpl	$51, %ebx
+1309c1309
+< 	cmpl	%ebp, %r14d
+---
+> 	cmpl	$51, %r14d
+1988c1988
+< 	cmpl	%r15d, %r10d
+---
+> 	cmpl	$51, %r10d
+2230c2230
+< 	cmpl	%edx, %r15d
+---
+> 	cmpl	$51, %r15d
+Comparing ldecod_src/img_io.s and ldecod_src/img_io.mod.s
